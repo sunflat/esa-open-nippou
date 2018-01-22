@@ -1,5 +1,8 @@
+![image](https://cloud.githubusercontent.com/assets/188394/19295172/ad8e8850-906d-11e6-9ce9-be72350da616.png)
+
 # esa-open-nippou
-OSXのためのesa.ioで特定の日の日報を全部開くスクリプト
+
+esa.ioで特定の日の日報を全部開くスクリプト
 
 ## インストール
 
@@ -22,4 +25,5 @@ $ bundle exec ruby main.rb
 ```
 $ bundle exec ruby main.rb 2
 ```
+
 
