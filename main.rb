@@ -8,6 +8,7 @@ query = current_date.strftime('日報/%Y/%m/%d')
 
 client = Esa::Client.new(access_token: ENV['ESA_API_TOKEN'], current_team: ENV['TEAM'])
 response = client.posts(q: "in:#{query}")
+puts "#{response.body['posts'].size}件の日報がありました"
 response.body['posts'].each do |p|
   system %!open "#{p['url']}"!
 end
