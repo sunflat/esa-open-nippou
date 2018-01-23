@@ -1,4 +1,6 @@
 Bundler.require
+require 'date'
+
 Dotenv.load
 
 distance = ARGV[0] ? ARGV[0].to_i : 0
