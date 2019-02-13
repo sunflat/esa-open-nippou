@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem 'esa'
 gem 'google-api-client'
-gem 'activesupport', '4.2.6'
+gem 'activesupport', '5.2.2'
 gem 'dotenv'
 
 gem 'pry'

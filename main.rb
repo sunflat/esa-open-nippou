@@ -15,7 +15,7 @@ loop do
   response = client.posts(q: "in:#{query}", page: page)
   count += response.body['posts'].size
   response.body['posts'].each do |p|
-    system %!open "#{p['url']}"!
+    system %!xdg-open "#{p['url']}"!
   end
   page = response.body['next_page']
   break unless page
